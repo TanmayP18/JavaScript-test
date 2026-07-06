@@ -35,7 +35,7 @@ function showList() {
     let html = "";
     CourseObj.forEach(function(element, index) {
         html += `
-                <div class="noteCard my-2 mx-2 card" style="width: 12rem;">
+                <div class="noteCard my-2 mx-2 card" style="width: 14rem;">
                         <div class="card-body">
                             <h5 class="card-title">Name: ${element.name}</h5>
                             <p class="card-text" style="white-space: break-spaces;"> <b>Course:</b> ${element.course}</p>
